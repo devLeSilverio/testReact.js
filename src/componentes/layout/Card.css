@@ -1,0 +1,23 @@
+.Card {
+    flex:1;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    min-width: 300px;
+    flex-direction: column;
+    background-color: rgb(216, 207, 207);
+}
+
+.Card .Conteudo {
+    flex: 1;
+    color: black;
+    padding: 15x 0px;
+}
+
+.Card .Footer {
+    background-color: black;
+    color: white;
+    padding: 5px 0px;
+}
